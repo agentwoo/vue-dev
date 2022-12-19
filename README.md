@@ -70,7 +70,7 @@ html {
 
 - main.ts
 ```
-将`import './style.css'`换成 `import '@/style/index.scss'`
+将import './style.css'换成 import '@/style/index.scss'
 ```
 
 ## 安装pinia
@@ -244,6 +244,6 @@ export const getUser = () => http({ url: '/getUser', method: "get" })
 ## 开启network
 - 在package.json中
 ```
-将`"dev": "vite --host",`替换掉`"dev": "vite",`
+将"dev": "vite --host",替换掉"dev": "vite",
 ```
 
